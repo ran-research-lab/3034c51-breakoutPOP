@@ -1,0 +1,2 @@
+all:
+	g++ -o breakoutPOP.exe breakoutPOP.cpp -lraylib -lopengl32 -lgdi32 -lwinmm
