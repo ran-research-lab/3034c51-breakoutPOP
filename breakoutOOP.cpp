@@ -1,7 +1,8 @@
 #include "raylib.h"
 #include "raymath.h"
 #include <vector>
-
+#include <iostream>
+using namespace std;
 
 class Ball {
 protected:
@@ -13,6 +14,7 @@ public:
         velX = 4;
         velY = 6;
         radius = 10;
+        cout << "default!" << endl;
     }
     Ball(float xx, float yy, float vvelX, float vvelY, float rradius) {
         x = xx;
